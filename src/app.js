@@ -12,7 +12,7 @@ app.get("/", handleResponse);
 app.post("/", handleResponse);
 
 function handleResponse(req, res) {
-    res.sendStatus(200).send("test");
+    res.status(200).send("test");
 }
 
 // SSL Certificates
